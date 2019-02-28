@@ -9,32 +9,38 @@ html(lang="ja")
     link(rel="stylesheet", href="./style/index.css")
     title fuga.dev
   body
-    header(id="header")
+    header#header
       h1 fuga.dev
 
-    main(class="swiper-container")
-      div(class="swiper-wrapper")
-        section(class="swiper-slide")
-          h2 fuga.dev とは？
+    main.swiper-container
+      div.swiper-wrapper
+        section.swiper-slide#slide-1
+          .slide
+            h2.slide-title fuga.dev とは？
 
-          p fuga.dev は、みなさんが過去に目にしたフガーとなってしまう変数名や関数名、クラス名などを募集・紹介するサイトです。
-          p .dev ドメインが一般開放されると聞いて思いついたネタサイトではありますが、これからのプログラマたちが二度と同じ過ちを踏んでしまわないように皆様からのご応募お待ちしております。
+            .slide-detail
+              p fuga.dev は、みなさんが過去に目にしたフガーとなってしまう変数名や関数名、クラス名などを募集・紹介するサイトです。
+              p .dev ドメインが一般開放されると聞いて思いついたネタサイトではありますが、これからのプログラマたちが二度と同じ過ちを踏んでしまわないように皆様からのご応募お待ちしております。
 
-        section(class="swiper-slide")
-          h2 頂いた名前たち
+        section.swiper-slide#slide-2
+          .slide
+            h2.slide-title 頂いた名前たち
 
-          p 現在募集中です。
+            .slide-detail
+              p 現在募集中です。
 
-        section(class="swiper-slide")
-          h2 投稿する!
+        section.swiper-slide#slide-3
+          .slide
+            h2.slide-title 投稿する!
 
-          p fuga.dev では貴方が過去に見たフガーとなってしまう名前を随時募集しています。
-          p 静的サイトなので即適用とはなりませんが、可能な限り迅速に反映させていただきます。
-          p 投稿は以下の Google Form よりお願いします。
+            .slide-detail
+              p fuga.dev では貴方が過去に見たフガーとなってしまう名前を随時募集しています。
+              p 静的サイトなので即適用とはなりませんが、可能な限り迅速に反映させていただきます。
+              p 投稿は以下の Google Form よりお願いします。
 
-          p 現在準備中です。
+              p 現在準備中です。
 
-        div(class="swiper-scrollbar")
+        div.swiper-scrollbar
 
       footer
         p (c) 2018 OldBigBuddha
