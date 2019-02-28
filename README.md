@@ -38,10 +38,11 @@ READM.mdのContributorの欄に自分の名前を載せた場合、このよう�
 
 ```
 [add] Contributor of README.md
+
 Add my name
 ```
 
-# Contibutor
+# Contributor
 
 - [OldBigBuddha](https://github.com/OldBigBuddha)
 
