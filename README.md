@@ -1,6 +1,8 @@
 # fuga.dev
 [![Netlify Status](https://api.netlify.com/api/v1/badges/827b8259-351b-4ee0-af19-ad91f17cd613/deploy-status)](https://app.netlify.com/sites/fugadev/deploys)
+
 [![LICENSE](https://img.shields.io/badge/license-Apache--2.0-orange.svg)](https://github.com/OldBigBuddha/fuga.dev)
+
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
 .dev一般開放に伴ったネタサイト、フガーな命名をされてしまった変数・関数・クラスたちを弔おう。
@@ -36,10 +38,11 @@ READM.mdのContributorの欄に自分の名前を載せた場合、このよう�
 
 ```
 [add] Contributor of README.md
+
 Add my name
 ```
 
-# Contibutor
+# Contributor
 
 - [OldBigBuddha](https://github.com/OldBigBuddha)
 
