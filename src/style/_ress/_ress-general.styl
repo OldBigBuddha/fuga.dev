@@ -1,0 +1,167 @@
+/*!
+ * ress.css • v1.0.1
+ * MIT License
+ * github.com/filipelinhares/ress
+ */
+
+
+/* # =================================================================
+   # General elements
+   # ================================================================= */
+
+/**
+ * Add the correct display in iOS 4-7.
+
+ * iOS 4-7に、正しいdisplayを設定。
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * 1. Show the overflow in Edge and IE
+
+ * 1. EdgeとIEに、「overflow: visible;」を定義。
+ */
+hr {
+  overflow: visible; /* 1 */
+}
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox
+ * Correct `block` display not defined for `main` in IE 11
+
+ * IE8/9に、displayプロパティを定義。
+ * IE10/11とFirefoxのdetail要素とsummary要素に、displayプロパティを定義。
+ * IE11のmain要素に、displayプロパティを定義。
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Set font-size to 80% in `small` elements
+
+ * 1. small要素に、フォントサイズ「80%」を定義。
+ */
+small {
+  font-size: 80%; /* 1 */
+}
+
+/**
+ * 1. Add the correct display in IE
+
+ * 1. IEに、displayプロパティを定義。
+ */
+[hidden],
+template {
+  display: none; /* 1 */
+}
+
+/**
+ * 1. Add a bordered underline effect in all browsers
+ * 2. Remove text decoration in Firefox 40+
+
+ * 1. すべてのブラウザに、点線を定義。
+ * 2. Firefox40+に、テキストの装飾を削除。
+ */
+abbr[title] {
+  border-bottom: 1px dotted; /* 1 */
+  text-decoration: none; /* 2 */
+}
+
+/**
+ * 1. Remove the gray background on active links in IE 10
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+
+
+ * 1. IE10に、アクティブリンクのグレーの背景を削除。
+ * 2. iOS8+とSafari8+に、リンクの下線のギャップを削除。
+ */
+a {
+  background-color: transparent; /* 1 */
+  -webkit-text-decoration-skip: objects; /* 2 */
+}
+
+/**
+ * 1. Remove the outline when hovering in all browsers
+
+ * 1. すべてのブラウザに、ホバー時のアウトラインを削除。
+ */
+a:active,
+a:hover {
+  outline-width: 0; /* 1 */
+}
+
+/**
+ * 1. Specify the font family of code elements
+
+ * 1. コード要素に、フォントファミリーを指定。
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace; /* 1 */
+}
+
+/**
+ * 1. Correct style set to `bold` in Edge 12+, Safari 6.2+, and Chrome 18+
+
+ * 1. Edge12+, Safari6.2+, Chrome18+に、「bold」を適用。
+ */
+b,
+strong {
+  font-weight: bolder; /* 1 */
+}
+
+/**
+ * 1. Address styling not present in Safari and Chrome
+
+ * 1. SafariとChromeに、定義。
+ */
+dfn {
+  font-style: italic; /* 1 */
+}
+
+/**
+ * Address styling not present in IE 8/9
+
+ * 1. IE8/9に、定義。
+ */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * https://gist.github.com/unruthless/413930
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
