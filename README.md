@@ -7,7 +7,7 @@
 
 .dev一般開放に伴ったネタサイト、フガーな命名をされてしまった変数・関数・クラスたちを弔おう。
 
-**fuga.dev取れませんでした**
+~~fuga.dev取れませんでした~~ **[@Satopppy_](https://twitter.com/Satopppy_)のお陰で取得できました!**
 
 # Contributing
 `develop` ブランチから各自feature単位でブランチを切り、`develop` ブランチへPRを投げてください。
@@ -53,6 +53,9 @@ Add my name
 ```
 - [名前](GitHubのURL)
 ```
+
+# Special Thanks
+ドメイン提供者: [@Satopppy_](https://twitter.com/Satopppy_)
 
 # LICENSE
 See [./LICENSE](./LICENSE)
