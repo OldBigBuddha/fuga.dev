@@ -1,0 +1,5 @@
+[[headers]]
+  for = "/*"
+    Link = '''
+    <style/index.css>; rel=preload; as=style \
+    <script/swiper.js>; rel=preload; as=script '''
