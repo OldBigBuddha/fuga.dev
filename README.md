@@ -47,6 +47,7 @@ Add my name
 # Contributor
 
 - [OldBigBuddha](https://github.com/OldBigBuddha)
+- [KNTK](https://github.com/AkihiroTokai)
 
 追加雛形
 
