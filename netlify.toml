@@ -1,0 +1,18 @@
+[[headers]]
+  for = "/*"
+    Link = '''
+    <style/index.css>; rel=preload; as=style \
+    <script/swiper.js>; rel=preload; as=script '''
+
+[[redirects]]
+  from = "http://fuga.dev"
+  to = "https://fuga.dev"
+  status = 301
+
+[[redirects]]
+  from = "https://www.fuga.dev"
+  to = "https://fuga.dev"
+
+[[redirects]]
+  from = "http://www.fuga.dev"
+  to = "https://fuga.dev"
